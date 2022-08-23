@@ -7,10 +7,12 @@ public class test {
         t.birth("andy", "matthew");
         t.birth("bob", "alex");
         t.birth("bob", "asha");
+        t.birth("king", "bob");
         System.out.println(t.getInheritanceOrder());
         t.death("bob");
         System.out.println(t.getInheritanceOrder());
         t.death("alex");
+        t.birth("bob","blessing");
         System.out.println(t.getInheritanceOrder());
 
 
